@@ -1,0 +1,8 @@
+{
+    "require": {
+        "kriswallsmith/assetic": "1.0.*"
+    },
+	"config": {
+		"vendor-dir": "packages"
+	}
+}
