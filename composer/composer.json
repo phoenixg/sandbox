@@ -1,6 +1,6 @@
 {
     "require": {
-        "kriswallsmith/assetic": "1.0.*"
+		"monolog/monolog": "1.2.*"
     },
 	"config": {
 		"vendor-dir": "packages"
