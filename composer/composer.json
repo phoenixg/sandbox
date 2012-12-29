@@ -1,8 +1,10 @@
 {
+
+    "name": "acme/hello-world",
     "require": {
-		"monolog/monolog": "1.2.*"
+        "monolog/monolog": "1.2.*"
     },
-	"config": {
-		"vendor-dir": "packages"
-	}
+    "config": {
+        "vendor-dir": "packages"
+    }
 }
