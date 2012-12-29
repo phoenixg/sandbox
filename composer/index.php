@@ -1,6 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
+require 'packages/autoload.php';
 
 
 //现在就可以用那个类了
