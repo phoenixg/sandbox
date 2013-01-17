@@ -1,5 +1,6 @@
 <?php
-
+// 用这个命令行命令来执行单元测试：
+// vendor/EHER/PHPUnit/bin/phpunit test/calculator_test.php
 require 'calculator.php';
 use App\Calculator;
 
