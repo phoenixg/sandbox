@@ -10,14 +10,14 @@ TDD三大核心法则：
 - 除了严格、必要地让失败的测试变为成功的代码，你都不被允许编写
 
 
-可以用newbie2-PHPUnit-composer的方法安装（http://net.tutsplus.com/tutorials/php/test-driven-development-in-php-first-steps/），也可以用下面的方法安装PHPUnit：
+可以用newbie2-PHPUnit-composer的方法安装（http://net.tutsplus.com/tutorials/php/test-driven-development-in-php-first-steps/ ），也可以用下面的方法安装PHPUnit：
 
-    `become root or use sudo`
-    `pear upgrade PEAR`
-    `enable auto discovery: pear config-set auto_discover 1`
-    `install PHPUnit: pear install pear.phpunit.de/PHPUnit`
+    become root or use sudo
+    pear upgrade PEAR
+    enable auto discovery: pear config-set auto_discover 1
+    install PHPUnit: pear install pear.phpunit.de/PHPUnit
 
 更多信息，参考：http://www.phpunit.de/manual/3.6/en/installation.html
 
-这里就直接复制了newbie2-PHPUnit-composer的安装好的PHPUnit了。
+这里就直接复制了newbie2-PHPUnit-composer的安装好的PHPUnit了，例子的代码已经全部通过了单元测试成功。
 
