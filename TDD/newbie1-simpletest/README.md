@@ -22,7 +22,8 @@
 |            assert($e)                             |   Fail on failed expectation object $e    |	
 
 	
-	
+
+详细列表见：http://www.simpletest.org/en/unit_test_documentation.html
 	
 	
 
