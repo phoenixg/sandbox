@@ -3,6 +3,7 @@
 安装PHPUnit： http://www.phpunit.de/manual/current/en/installation.html#installation.pear
 
 我的安装方法：
+
 	pear channel-discover pear.phpunit.de
 	pear channel-discover components.ez.no
 	pear install phpunit/PHP_CodeCoverage
