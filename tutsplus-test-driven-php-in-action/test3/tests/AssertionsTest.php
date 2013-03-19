@@ -22,4 +22,25 @@ class AssertionsTest extends PHPUnit_Framework_TestCase
 		
 	}
 
+	public function testException1()
+	{
+		try {
+			//throw new LogicException('Foo', 1234);
+			//$this->fail('We should not be here');
+		} catch (LogicException $e) {
+			$this->assertEquals($e->getMessage(), 'Foo');
+			$this->assertEquals($e->getCode(), 1234);
+		}
+	}
+
+	/**
+	 * @expectedException        LogicException
+	 * @expectedExceptionMessage Foo
+	 * @expectedExceptionCode    1234
+	 */
+	public function testException2()
+	{
+		throw new LogicException('Foo', 1234);
+	}
+
 }
