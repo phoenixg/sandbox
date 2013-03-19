@@ -1,0 +1,3 @@
+<?php
+
+$_GET[THIS_CONSTANT_IS_NOT_DEFINED];
