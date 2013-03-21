@@ -26,7 +26,16 @@
 编写测试 -> 失败 -> 编写程序直到测试通过 -> 清理
 
 
+## 运行测试
+### 命令行
 
+完整的命令行选项见：phpunit --help
+
+比如slim项目，有phpunit.xml.dist文件，可以直接运行phpunit
+
+可以把测试报告输出成各种格式，比如: phpunit --log-junit test.xml
+
+### Bootstrap
 
 
 
