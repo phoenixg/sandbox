@@ -30,4 +30,4 @@ Phar（Php ARchive），类似于Java的JAR，PHP 5.3以上默认开启Phar exte
     php run.php
 
 
-
+综上，`src`里的东西是我要打包的应用程序，`build`是我打包后生成的东西（比如phar文件），`production`是部署的生产环境。
