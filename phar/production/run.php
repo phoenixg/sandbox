@@ -1,2 +1,2 @@
 <?php
-require 'myapp.phar';
+require("myapp.phar");

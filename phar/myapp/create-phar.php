@@ -1,5 +1,5 @@
 <?php
-
+// 也可以在运行时配置
 ini_set("phar.readonly", 0);
 
 $srcRoot = "../myapp/src";

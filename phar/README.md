@@ -17,4 +17,17 @@ Phar（Php ARchive），类似于Java的JAR，PHP 5.3以上默认开启Phar exte
 
 ## 创建PHAR文件
 
-首先创建一个`create-phar.php`文件，然后使用命令`php create-phar.php`
+首先创建一个`create-phar.php`文件，然后使用命令`php create-phar.php`（似乎要在`myapp`目录下运行才行）。
+该命令的脚本会创建`myapp.phar`和`config.ini`两个文件到`build`文件夹中。
+
+这两个文件我现在移动到`production`目录中，然后`run.php`加载phar文件：
+    
+    require 'myapp.phar';
+
+然后运行：
+
+    # 必须在当前目录也就是`production`目录运行
+    php run.php
+
+
+
