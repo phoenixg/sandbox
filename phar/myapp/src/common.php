@@ -1,4 +1,6 @@
 <?php
+
+// 程序预加载的类库
 class AppManager
 {
     public static function run($config) {
