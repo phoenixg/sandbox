@@ -1,8 +1,14 @@
 <?php
 
-// 这个文件没啥用
-
 require_once 'vendor/autoload.php';
-$logger = new \Enlog\Logger();
 
-var_dump($logger);
+use \Enlog\Logger;
+use \Enlog\Handler\MemoryHandler;
+
+$logger  = new Logger();
+$handler = new MemoryHandler();
+
+$logger->registerHandler('memory', $handler);
+$logger->log('Yay, my first simple library using TDD');
+
+var_dump($handler->getEntries());
